@@ -1,5 +1,5 @@
 # CACH DUNG LENH
-# python recognize_video.py --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle --video videos/Long.mp4
+# python recognize_webcam.py --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle
 
 # import các thư viện cần thiết
 from imutils.video import VideoStream
@@ -16,8 +16,6 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--detector", type=str, default='face_detector',
                 help="path to OpenCV's deep learning face detector")
-ap.add_argument("-v", "--video", required=True,
-                help="path to input video")
 ap.add_argument("-m", "--embedding-model", required=True,
     help="path to OpenCV's deep learning face embedding model")
 ap.add_argument("-r", "--recognizer", required=True,
@@ -43,15 +41,15 @@ embedder = cv2.dnn.readNetFromTorch(args["embedding_model"])
 recognizer = pickle.loads(open(args["recognizer"], "rb").read())
 le = pickle.loads(open(args["le"], "rb").read())
 
-# khởi tạo video
-print("[INFO] starting video...")
-vs = VideoStream(src=args["video"]).start()
+# khởi tạo videostream, cho phép webcam bật
+print("[INFO] starting video stream...")
+vs = VideoStream(src=0).start()
 time.sleep(2.0)
 # start tính FPS
 fps = FPS().start()
-# lặp qua các frames từ video
+# lặp qua các frames từ video stream
 while True:
-    # đọc frame từ video
+    # đọc frame từ video stream
     frame = vs.read()
     # resize frame về 600 pixel và lấy chiều
     frame = imutils.resize(frame, width=600)
@@ -92,13 +90,13 @@ while True:
             text = "{}: {:.2f}%".format(name, proba * 100)
             y = startY - 10 if startY - 10 > 10 else startY + 10
             cv2.rectangle(frame, (startX, startY), (endX, endY),
-                              (0, 0, 255), 2)
+                              (0, 255, 0), 2)
             cv2.putText(frame, text, (startX, y),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 0), 2)
     # update FPS counter
     fps.update()
     # show output frame
-    cv2.imshow("Video", frame)
+    cv2.imshow("Webcam", frame)
     key = cv2.waitKey(1) & 0xFF
     # nếu nhấn 'q' thì thoát
     if key == ord("q"):

@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="415aad3e-f9a9-4f58-bfbe-8b17a5bc40d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/embeddings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/output/embeddings.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/recognizer.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/output/recognizer.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognize_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognize_video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project DL/Face-Mask-Detector-TL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project DL/My_Face_Anti_Spoofing" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -76,10 +80,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607158925628">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607182486111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607158925628" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607182486111" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1607054250936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -96,9 +100,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607054250936" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1607143950342">
+    <state x="277" y="55" key="SettingsEditor" timestamp="1607181923222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607143950342" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607181923222" />
   </component>
 </project>
