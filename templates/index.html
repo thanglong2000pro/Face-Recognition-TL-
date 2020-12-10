@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Mask Detection</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="starter-template">
+        <h1>Face Detection</h1>
+    </div>
+</div>
+
+<header class="navbar">
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <div align="center">
+            <label class="btn btn-default btn-file">
+                <a href="webcam">Webcam</a>
+            </label>
+            <label class="btn btn-default btn-file">
+                Upload Image <input name="image" style="display: none;" type="file">
+            </label>
+            <input class="btn btn-primary" type="submit" value="Detect Image">
+        </div>
+    </form>
+</header>
+
+<div class="text-center">
+    {% if init %}
+    {% if image_to_show %}
+    <div>
+        <img src="{{ image_to_show }}" style="width:600px;">
+    </div>
+    {% endif %}
+    {% endif %}
+</div>
+
+</body>
+</html>
