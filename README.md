@@ -9,7 +9,7 @@ My Course Project - Nhập môn Trí tuệ nhân tạo - HUST
 - **Recognize image**
 <img src="Readme_images/recog_image.png">
 
-- **Decognize video**
+- **Recognize video**
 <img src="Readme_images/demo.gif">
 
 ## FRAMEWORK USED ##
