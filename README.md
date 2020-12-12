@@ -27,7 +27,7 @@ My Course Project - Nhập môn Trí tuệ nhân tạo - HUST
     `pip install -r requirements.txt`
  
 4. Tạo folder videos và thêm video mẫu vào videos
-5. Tạo folder dataset, trong folder dataset tạo folder có tên tương ứng với các video trong videos, ví dụ: video mẫu: Long.mp4 thì trong dataset tạo thư mục Long 
+5. Tạo folder dataset, trong folder dataset tạo folder có tên tương ứng với các video trong videos, ví dụ: video mẫu: Long.mp4 thì trong dataset tạo folder Long 
 4. Open source code and read how to run code
 
 ## RESULT ##
