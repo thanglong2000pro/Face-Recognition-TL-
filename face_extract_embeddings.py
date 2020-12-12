@@ -81,7 +81,7 @@ for (i, imagePath) in enumerate(imagePaths):
             face = image[startY:endY, startX:endX]
             (fH, fW) = face.shape[:2]
 
-            # dame bao chieu rong va chieu cao cua face du lon, neu nho qua => bo qua
+            # dam bao chieu rong va chieu cao cua face du lon, neu nho qua => bo qua
             if fW < 20 or fH < 20:
                 continue
 
