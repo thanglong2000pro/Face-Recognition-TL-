@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415aad3e-f9a9-4f58-bfbe-8b17a5bc40d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme_images/demo_web.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Readme_images/demo_web.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/fontawesome-all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/images/overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/images/pattern-size1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/images/pattern-size2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/images/pattern-size3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/noscript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/64-640266_face-scan-vector-face-recognition-png-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/istockphoto-1184864153-612x612.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/long1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/breakpoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/browser.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.scrolly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/base/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_actions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_box.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_spotlight.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_table.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/components/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/layout/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/layout/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_html-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_vendor.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/sass/noscript.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme_images/demo_web.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

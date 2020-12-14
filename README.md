@@ -4,7 +4,7 @@
 My Course Project - Nhập môn Trí tuệ nhân tạo - HUST
 ## PROJECT DEMO ##
 - **Demo web by Flask**
-<img src="Readme_images/demo_web.jpg">
+<img src="Readme_images/demo_web_new.jpg">
 
 - **Recognize image**
 <img src="Readme_images/recog_image.png">
