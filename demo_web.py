@@ -21,7 +21,7 @@ app.config['le'] = 'output/le.pickle'
 app.config['confidence'] = 0.5
 
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
 
@@ -107,10 +107,11 @@ def gen():
     vs.stop()
 
 
-@app.route('/webcam')
+@app.route('/webcam', methods=['GET'])
 def webcam():
-    return Response(gen(),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')
+    Response(gen(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return redirect(url_for('index'))
+
 
 
 app.config['image_upload'] = 'images'
@@ -128,7 +129,7 @@ def input_image():
     return redirect(request.url)
 
 
-@app.route('/predict/<filename>')
+@app.route('/predict_<filename>')
 def predict(filename):
 
     img_path = app.config['image_upload'] + '/' + filename
@@ -191,8 +192,8 @@ def predict(filename):
         cv2.putText(image, text, (startX, y),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 0), 2)
 
-    image_content = cv2.imencode('.jpg', image)[1].tostring()
-    encoded_image = base64.encodestring(image_content)
+    image_content = cv2.imencode('.jpg', image)[1].tobytes()
+    encoded_image = base64.encodebytes(image_content)
     to_send = 'data:image/jpg;base64, ' + str(encoded_image, 'utf-8')
     return render_template('index.html', image_to_show=to_send, init=True)
 
